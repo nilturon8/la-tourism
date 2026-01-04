@@ -1,17 +1,19 @@
 export default function Activities({ activities, onAdd }) {
-  // Evita petar si activities és undefined/null
   const list = Array.isArray(activities) ? activities : [];
 
   return (
     <section id="activities" className="section">
       <div className="container">
-        <h2>Activities</h2>
+        <div className="section__head">
+          <h2>Activities</h2>
+          <p>Select an activity and add it to your cart.</p>
+        </div>
 
         <div className="activities">
           {list.map((a) => (
             <div key={a.id} className="card">
               <h3>{a.title}</h3>
-              <p>{a.description}</p>
+              <p className="muted">{a.description}</p>
               <p>
                 <b>Duration:</b> {a.duration}
               </p>

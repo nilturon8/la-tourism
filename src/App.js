@@ -13,14 +13,8 @@ import activities from "./data/activities";
 export default function App() {
   const [cart, setCart] = useState([]);
 
-  const addToCart = (activity) => {
-    setCart((prev) => [...prev, activity]);
-  };
-
-  const removeFromCart = (index) => {
-    setCart((prev) => prev.filter((_, i) => i !== index));
-  };
-
+  const addToCart = (activity) => setCart((prev) => [...prev, activity]);
+  const removeFromCart = (index) => setCart((prev) => prev.filter((_, i) => i !== index));
   const clearCart = () => setCart([]);
 
   return (

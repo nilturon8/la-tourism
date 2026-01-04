@@ -7,7 +7,7 @@ export default function Cart({ items, onRemove, onClear }) {
         <h2>Cart</h2>
 
         {items.length === 0 ? (
-          <p>No hi ha activitats seleccionades.</p>
+          <p>No activities selected yet.</p>
         ) : (
           <>
             <ul>
@@ -20,7 +20,7 @@ export default function Cart({ items, onRemove, onClear }) {
             </ul>
 
             <p><b>Total:</b> {total}€</p>
-            <button className="btn" onClick={onClear}>Buidar cart</button>
+            <button className="btn" onClick={onClear}>Clear cart</button>
           </>
         )}
       </div>

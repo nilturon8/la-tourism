@@ -1,58 +1,52 @@
 const activities = [
   {
-    id: "hollywood-walk",
+    id: "hollywood",
     title: "Hollywood Walk of Fame",
-    area: "Hollywood",
-    category: "City icons",
     duration: "1–2 h",
     price: 0,
-    description: "Passejada pels estels, el TCL Chinese Theatre i ambient de cinema.",
+    description:
+      "Walk along the iconic stars, visit the TCL Chinese Theatre, and feel the classic movie atmosphere.",
   },
   {
-    id: "griffith-observatory",
-    title: "Griffith Observatory & Sunset View",
-    area: "Griffith Park",
-    category: "Viewpoints",
+    id: "griffith",
+    title: "Griffith Observatory",
     duration: "2–3 h",
     price: 0,
-    description: "Vistes espectaculars de Los Angeles i del rètol de Hollywood.",
+    description:
+      "Enjoy stunning panoramic views of Los Angeles and get a great look at the Hollywood Sign.",
   },
   {
-    id: "santa-monica",
+    id: "santamonica",
     title: "Santa Monica Pier & Beach",
-    area: "Santa Monica",
-    category: "Beach",
     duration: "2–4 h",
     price: 0,
-    description: "Platja icònica, moll, botigues i ambient relax.",
+    description:
+      "A lively pier with an amusement park, great sunsets, and a beautiful beach promenade.",
   },
   {
     id: "venice",
     title: "Venice Beach",
-    area: "Venice",
-    category: "Beach",
     duration: "2–4 h",
     price: 0,
-    description: "Skatepark, murals, canals i cultura urbana.",
+    description:
+      "Experience LA’s street culture, the skatepark, murals, and the relaxed beach vibe.",
   },
   {
     id: "getty",
     title: "The Getty Center",
-    area: "Brentwood",
-    category: "Museum",
     duration: "2–3 h",
     price: 0,
-    description: "Museu d'art amb arquitectura i jardins impressionants.",
+    description:
+      "Explore art collections, modern architecture, peaceful gardens, and amazing city views.",
   },
   {
     id: "dtla-food",
     title: "Downtown LA Food Tour",
-    area: "Downtown",
-    category: "Food",
     duration: "2–3 h",
     price: 35,
-    description: "Ruta gastronòmica pels millors llocs de DTLA.",
-  }
+    description:
+      "Taste local favorites like tacos and street food while discovering markets and hidden gems in DTLA.",
+  },
 ];
 
 export default activities;
